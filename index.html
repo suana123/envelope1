@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>sorry letter</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+    <h1 class="cute-heading">
+        💌 Click the Heart Button to Open the Envelope 💕
+    </h1>
+    <div class="envelope-wrapper flap">
+        <div class="envelope">
+            <div class="letter">
+                <div class="text">
+                    <strong>Dear Moonlight,</strong>
+                    <p>
+                        I’m so sorry for forgetting your special day. It was my mistake, and I feel awful.  
+                        Please forgive me—I promise to make it up to you.  
+                    </p>
+                    <p>Yours, Fazeel</p>
+                </div>
+            </div>
+            
+        </div>
+        <div class="heart"></div>
+    </div>
+</div>
+
+</body>
+<script>
+    const envelope = document.querySelector('.envelope-wrapper');
+    envelope.addEventListener('click' , () => {
+        envelope.classList.toggle('flap');
+
+    });
+</script>
+</html>
